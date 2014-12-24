@@ -1,0 +1,31 @@
+{
+  "name": "sms-scheduler",
+  "version": "0.0.0",
+  "description": "Simple SMS scheduler using smsapi.pl to send text messages on a given time",
+  "main": "index.js",
+  "dependencies" : {
+    "node-schedule": "0.1.13",
+    "smsapi-pl": "0.0.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/malps13/sms-scheduler.git"
+  },
+  "keywords": [
+    "sms",
+    "scheduler",
+    "smsapi.pl",
+    "smsapi",
+    "text",
+    "messages"
+  ],
+  "author": "Wojtek Jodel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/malps13/sms-scheduler/issues"
+  },
+  "homepage": "https://github.com/malps13/sms-scheduler"
+}
